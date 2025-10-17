@@ -1,49 +1,42 @@
 # VOIS_AICTE_Oct2025_MajorProject_Kaviyathamizhan-T-K
-Netflix Data Analysis 📊
-Overview
+# Netflix Data Analysis 📊
 
-This project performs an in-depth analysis of the Netflix dataset to uncover insights about content distribution, ratings, genres, and trends over time.
+## Overview
 
-Dataset
+This project analyzes the Netflix dataset to explore trends in content distribution, ratings, genres, and other insights.
 
-The dataset includes information like show_id, title, director, cast, country, release_date, rating, duration, category, type, and description.
+## Dataset
 
-Source: Kaggle / Netflix Dataset
- (replace with actual link)
+Includes `show_id`, `title`, `director`, `cast`, `country`, `release_date`, `rating`, `duration`, `category`, `type`, and `description`.
 
-Key Features
+## Key Features
 
-Data Cleaning & Preprocessing
+* Data cleaning and preprocessing
+* Exploratory Data Analysis (EDA)
+* Analysis of popular genres, top directors and actors, country-wise content, and trends over time
+* Interactive visualizations using Plotly and Matplotlib
 
-Exploratory Data Analysis (EDA) with visualizations
+## Installation
 
-Analysis of:
-
-Most popular genres
-
-Top directors and actors
-
-Country-wise content distribution
-
-Trends over years
-
-Interactive visualizations using Plotly & Matplotlib
-
-Installation
+```bash
 pip install pandas numpy matplotlib seaborn plotly
+```
 
-How to Run
+## How to Run
+
+```bash
 python netflix_analysis.py
+```
 
+Or open `Netflix_Analysis.ipynb` for interactive exploration.
 
-Or open the Jupyter Notebook Netflix_Analysis.ipynb for interactive exploration.
+## Insights
 
-Insights
+* Trends in Netflix content over the years
+* Top-performing genres, actors, and directors
+* Country-wise content distribution
+* Rating distributions across content types
 
-Visualized trends in Netflix content over the years
+## License
 
-Identified top-performing genres, actors, and directors
-
-Country-wise content production insights
-
-Distribution of ratings across content types
+Open-source, free for learning purposes.
